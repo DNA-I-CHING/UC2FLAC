@@ -1,0 +1,3 @@
+
+python ./uc.py
+pause
