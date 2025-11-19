@@ -1,7 +1,0 @@
-mp3/**
-.*
-!.gitignore
-!.travis.yml
-__pycache__/**
-htmlcov
-coverage*
