@@ -20,23 +20,21 @@
 代码仅供技术交流，参考学习，请尊重版权，勿用于商业及非法用途，如产生法律纠纷与本人无关
 
 ## 介绍
-将缓存文件转换为 mp3 文件。这是[详细介绍](https://mbinary.xyz/decrypt-netease-music.html) 
+将缓存文件转换为 FLAC 文件。这是[详细介绍](https://mbinary.xyz/decrypt-netease-music.html) 
 
 ## 依赖
 * python3.5+
 * python 模块
-  - requests
-  - mutagen
+  - OS
 
 运行命令安装
 ```shell
-$ pip3 install -r requirements.txt
+$ pip3 install os
 ```
 
 ## 使用
 ![](images/flow-chart.png)
 
-- 如果要获得电脑上的缓存文件，那么可以不传入参数直接运行这个脚本`python3 decrypt.py`
-- 如果是手机上的（`一般是netease/cloudmusic[lite]/Cache/Music1`, 将其拷贝到电脑上），**或者上面情况出现没有找到文件夹，没有文件等错误**，那么需要指定缓存文件的位置作为参数运行(可以将缓存文件夹拷贝到当前目录重命名music, 然后运行`python3 decrypt.py music`)。
-- 已上传示例文件，可运行`python3 decrypt.py music` 进行尝试
-- 结果保存在当前目录下的`mp3`中:smiley: 
+- 把.UC文件放进当前目录下UC文件夹,点击decrypt.bat转换
+- 结果保存在当前目录下的`UC`中
+
